@@ -1,0 +1,83 @@
+html {
+    font-size: 16px; /*16px = 1rem */
+}
+
+#page {
+    width:  100px;
+    height:  100dvh;
+    background-color: yellow;
+}
+
+.shape {
+
+    aspect-ratio: 1/1;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-1 {
+    width: 100px;
+    background-color: aquamarine;
+
+
+}
+.square-2 {
+    width: 100px;
+    background-color: rgb(242, 255, 127);
+
+
+}
+.square-3 {
+    width: 100px;
+    background-color: rgb(191, 127, 255);
+
+
+}
+
+.circle-1 {
+    width: 150px;
+    background-color: #222222;
+    border-radius: 50%;
+}
+.circle-2 {
+    width: 150px;
+    background-color: #4a6001;
+    border-radius: 50%;
+}
+.circle-3 {
+    width: 150px;
+    background-color: #222;
+    border-radius: 50%;
+}
+
+.pos-1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+}
+
+.pos-2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+}
+
+.pos-3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+}
+
+.pos-4 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+}
+
