@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steve McCurry | Galleria Fotografica</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header" data-aos="fade-down">
+        <h1>Steve McCurry</h1>
+        <p class="subtitle">L'anima del mondo in uno scatto</p>
+    </header>
+
+    <section class="intro" data-aos="fade-up">
+        <div class="container">
+            <p>
+                Steve McCurry è uno dei più grandi maestri della fotografia contemporanea. 
+                Punto di riferimento per un larghissimo pubblico, ogni sua immagine racchiude un universo 
+                di esperienze ed emozioni, documentando conflitti, culture che scompaiono e tradizioni antiche.
+            </p>
+        </div>
+    </section>
+
+    <hr class="divider" data-aos="zoom-in">
+
+    <main class="gallery">
+
+        <div class="photo-card" data-aos="fade-right">
+            <div class="card-info">
+                <span>01</span>
+                <h2>Bhutan</h2>
+            </div>
+            <img src="immagini/AFGHN-10274NF8.webp" alt="Arcieri in Bhutan">
+        </div>
+
+        <div class="photo-card" data-aos="fade-left"> <div class="card-info">
+                <span>02</span>
+                <h2>Ritratto</h2>
+            </div>
+            <img src="immagini/BHUTAN-10081.webp" alt="Ritratto maschile">
+        </div>
+
+        <div class="photo-card" data-aos="fade-right">
+            <div class="card-info">
+                <span>03</span>
+                <h2>Burma</h2>
+            </div>
+            <img src="immagini/BURMA-11124NF2.webp" alt="Ritratto Burma">
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Omaggio a Steve McCurry</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: false,
+            mirror: true 
+        });
+    </script>
+
+</body>
+</html>

@@ -9,8 +9,11 @@ html {
     color: rgb(0, 0, 0);
     font-size: 2rem;
     margin-left: 50px;
-
+    position: relative; 
+    z-index: 999; 
 }
+
+
 
 .image {
     background-image: url(image/background.jpg);
@@ -22,8 +25,8 @@ html {
 }
 
 .pos-1 {
-    position: fixed;
-    top: 350px;
+    position:absolute;
+    top: 352px;
     width: 60px;
     left: 150px;
 }
@@ -32,14 +35,28 @@ html {
     position: fixed;
     width: 15%;
     top: 350px;
-    left: 70px;
+    left: 80px;
 }
 
 .pos-3 {
     position: fixed;
-    width: 50%;
+    width: 30%;
     top: 400px;
     left: 110px;
+    animation: scale;
+    animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes  scale {
+    from{
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1.5);
+    }
+    
 }
 
 
@@ -437,7 +454,7 @@ No media query for `xs` since this is the default in Bootstrap */
     .title {
         position: absolute;
         left: 25%;
-        top: 60%;
+        top: 10%;
         color: aliceblue;
         }
 
@@ -447,7 +464,7 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .pos-1 {
         position: fixed;
-        top: 350px;
+        top: 390px;
         width: 190px;
         left: 600px;
     }
@@ -455,15 +472,15 @@ No media query for `xs` since this is the default in Bootstrap */
     .pos-2 {
         position: fixed;
         width: 13%;
-        top: 350px;
+        top: 370px;
         left: 350px;
     }
 
     .pos-3 {
         position: fixed;
         width: 30%;
-        top: 550px;
-        left: 450px;
+        top: 200px;
+        left: 700px;
     }
 
 }
